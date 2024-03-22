@@ -47,6 +47,10 @@ body {
     font-size: 12px;
 }
 
-.start-button:hover {
+.button:hover {
     background-color: #D0D2CB;
+}
+
+.button.start:hover {
+    color:#E6AF2E;
 }
