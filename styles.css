@@ -4,7 +4,7 @@ body {
     font-family: fantasy;
 }
 
-.start {
+.box {
     margin: auto;
     align-items: center;
     text-align: center;
@@ -14,21 +14,39 @@ body {
     width: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
-    background-color: #BEB7A4;
     border-radius: 10px;
     color: #191716;
 }
 
-.start-button {
+.box.start {
+    background-color: #BEB7A4;
+}
+
+.box.quiz {
+    background-color: #E6AF2E;
+}
+
+.button {
     font-family: fantasy;
     border: none;
     padding: 15px;
     text-align: center;
     display: inline-block;
-    font-size: 16px;
     margin-top: 10px;
     border-radius: 5px;
     background-color: #E0E2DB;
     color: #191716;
     transition: background-color 0.3s ease;
+}
+
+.button.start {
+    font-size: 16px;
+}
+
+.button.answer {
+    font-size: 12px;
+}
+
+.start-button:hover {
+    background-color: #D0D2CB;
 }

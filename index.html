@@ -4,17 +4,23 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="styles.css">
 <body>
-    <div class="start">
+    <div id="start-box" class="box start">
+        <h1>Dim Sum Persona</h1>
+        <h3>
+            Enter a journey through noms and find out what dim sum you are!
+        </h3>
 
+        <button id="start-button" class="button start" >
+            Start
+        </button>
+    </div>
 
-    <h1>Dim Sum Persona</h1>
-    <h3>
-        Enter a journey through noms and find out what dim sum you are!
-    </h3>
-
-    <button id="start-button" class="start-button" >
-        Start
-    </button>
+    <div id="quiz-box" class="box quiz" hidden="true">
+        <div id="quiz-question">
+        </div>
+        <button id="quiz-answer1" class="button answer"></button>
+        <br />
+        <button id="quiz-answer2" class="button answer"></button>
     </div>
 
 <script src="script.js"></script>
